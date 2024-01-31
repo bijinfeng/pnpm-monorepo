@@ -27,4 +27,6 @@ export default antfu({
 
   typescript: true,
   react: true,
+
+  ignores: ["packages/components/src/components/ui"],
 })
