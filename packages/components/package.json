@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@pingtou/ui",
   "type": "module",
   "version": "1.0.0",
   "description": "",
@@ -10,6 +10,10 @@
   "module": "dist/esm/index.js",
   "unpkg": "dist/umd/components.min.js",
   "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist",
+    "tailwind.config.js"
+  ],
   "scripts": {
     "build": "father build"
   },
